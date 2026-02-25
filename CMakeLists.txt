@@ -6,5 +6,5 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 find_package(OpenCV REQUIRED)
 
-add_executable(ai_kamera main.cpp)
-target_link_libraries(ai_kamera PRIVATE ${OpenCV_LIBS})
+add_executable(ai_kamera_cpp main.cpp)
+target_link_libraries(ai_kamera_cpp PRIVATE ${OpenCV_LIBS})
